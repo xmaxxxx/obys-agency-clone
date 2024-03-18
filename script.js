@@ -1,11 +1,11 @@
-document.addEventListener("mousemove" ,function(dets){
+function curser(){
+    document.addEventListener("mousemove" ,function(dets){
     gsap.to('#crsr',{
         left:dets.x,
         top:dets.y
     })
 })
-
-
+}
 function lodingAnimation(){
     var tl = gsap.timeline()
 tl.from(".line h1",{
@@ -56,7 +56,6 @@ tl.from("#page1-line1 h1,#page1-line2 h1,#page1-line3 h2,#page1-line4 h1", {
 
 }
 lodingAnimation()
+curser();
 
-
-Shery.makeMagnet("#nav-part2 h4 ");
 
