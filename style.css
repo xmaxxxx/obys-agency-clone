@@ -279,5 +279,69 @@ body{
     width: 40%;
     font-size: 0.8vw;
 }
+#page5{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
 
+}
+.elem{
+    white-space: nowrap;
+    /* overflow-x: auto; */
+    margin-bottom: -2vw;
+}
+.elem h1{
+    font-size: 7vw;
+    -webkit-text-stroke: 1px #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: transparent;
+    display: inline-block;
+    animation-name: anime2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    margin-right: 16px;
+
+}
+.elem2{
+    white-space: nowrap;
+    margin-bottom: -2vw;
+}
+.elem2 h1{
+    font-size: 7vw;
+    -webkit-text-stroke: 1px #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: transparent;
+    display: inline-block;
+    transform: translateX(calc(-100% - 20px));
+    animation-name: anime2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+    margin-right: 16px;
+
+}
+@keyframes anime2 {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(calc(-100% - 20px));
+    }
+    
+}
+.elem span{
+    font-family: "slik serif";
+    color: transparent;
+    font-style: italic;
+}
+.elem2 span{
+    font-family: "slik serif";
+    color: transparent;
+    font-style: italic;
+
+}
 
