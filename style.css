@@ -824,6 +824,9 @@ body {
 }
 
 @media (max-width: 600px) {
+  body {
+    overflow-x: auto;
+  }
   #loader {
     height: 100%;
     width: 100%;
