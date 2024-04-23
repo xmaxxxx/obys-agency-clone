@@ -838,7 +838,7 @@ body {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
-    /* overflow: hidden; */
+    overflow: auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1110,7 +1110,7 @@ body {
     height: 110vw;
     width: 90vw;
     position: relative;
-    /* overflow: hidden; */
+    overflow: auto;
     -ms-flex-negative: 0;
     flex-shrink: 0;
     margin: 1vw;
